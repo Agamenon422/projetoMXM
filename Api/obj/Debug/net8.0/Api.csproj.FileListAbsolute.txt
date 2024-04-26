@@ -1,0 +1,8 @@
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.AssemblyInfoInputs.cache
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.AssemblyInfo.cs
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\workspace\projetoMXM\Api\obj\Debug\net8.0\Api.sourcelink.json

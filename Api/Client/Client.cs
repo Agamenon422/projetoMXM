@@ -1,4 +1,4 @@
-﻿namespace Api.Clients;
+﻿namespace Api.Client;
 
 public class Client
 {

@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Api.Client;
+using Api.Data;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 
-namespace Api.Clients
+namespace Api.Client
 {
     public static class ClientRoutes
     {

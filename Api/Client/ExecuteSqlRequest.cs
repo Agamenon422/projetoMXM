@@ -1,4 +1,4 @@
-﻿namespace Api.Clients
+﻿namespace Api.Client
 {
     public record ExecuteSqlRequest(string SqlCode);
 }
