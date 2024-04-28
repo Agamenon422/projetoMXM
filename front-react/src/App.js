@@ -8,19 +8,23 @@ function App() {
     const [sqlInput, setSqlInput] = useState("");
     const [jsonInput, setJsonInput] = useState("");
 
-    const handleButton=()=>{
-    
-
-
+    const handleButtonExecute=()=>{ 
       //Obtem o valor da constante SQL de entrada;
       //alert(sqlInput);
       const sql = {sqlCode:sqlInput};
-
-
       //Envia o HTTP POST p/ a API;
       axios.post("https://localhost:7026/clients", sql).then(response=>{
         setJsonInput(JSON.stringify(response.data));
       });  
+    }
+
+    const handleButtonExport=()=>{
+      const element = document.createElement("a");
+      const file = new Blob([jsonInput], {type: 'text/plain'});
+      element.href = URL.createObjectURL(file);
+      element.download = "saida.json";
+      document.body.appendChild(element); 
+      element.click();
     }
 
   return (
@@ -50,11 +54,18 @@ function App() {
 
       <div className='text-center'>
         <button 
-          onClick={(e)=>handleButton()}
+          onClick={(e)=>handleButtonExecute()}
           type="submit" 
           className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Executar comando
-          </button>
+        </button>
+
+        <button 
+          onClick={(e)=>handleButtonExport()}
+          type="submit" 
+          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Exportar JSON
+        </button>
 
       </div>
    </div>
