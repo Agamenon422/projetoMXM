@@ -19,12 +19,8 @@ function App() {
 
       //Envia o HTTP POST p/ a API;
       axios.post("https://localhost:7026/clients", sql).then(response=>{
-        alert(response.data);
-      });
-
-
-      //Atribue o resultado no campo JSON;
-      setJsonInput("Teste");
+        setJsonInput(JSON.stringify(response.data));
+      });  
     }
 
   return (
