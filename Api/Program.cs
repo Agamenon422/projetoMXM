@@ -10,6 +10,16 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<AppDbContext>();
 
+builder.Services.AddCors(o => o.AddPolicy("MyPolicy",
+                   builder =>
+                   {
+                       builder.WithOrigins("http://localhost:3000")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                   }));
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,6 +28,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Adicinar politica cors.
+app.UseCors("MyPolicy");
 
 app.UseHttpsRedirection();
 

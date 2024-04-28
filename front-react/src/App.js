@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import axios from 'axios';
 
 function App() {
 
@@ -8,13 +9,18 @@ function App() {
     const [jsonInput, setJsonInput] = useState("");
 
     const handleButton=()=>{
-      //Obtem o valor da constante SQL de entrada;
-      alert(sqlInput);
+    
 
-      
+
+      //Obtem o valor da constante SQL de entrada;
+      //alert(sqlInput);
+      const sql = {sqlCode:sqlInput};
+
 
       //Envia o HTTP POST p/ a API;
-
+      axios.post("https://localhost:7026/clients", sql).then(response=>{
+        alert(response.data);
+      });
 
 
       //Atribue o resultado no campo JSON;

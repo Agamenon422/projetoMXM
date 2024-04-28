@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\workspace\\projetoMXM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|c:\\workspace\\projetomxm\\api\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|solutionrelative:api\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|c:\\workspace\\projetomxm\\api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|solutionrelative:api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|c:\\workspace\\projetomxm\\api\\client\\clientroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|solutionrelative:api\\client\\clientroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|c:\\workspace\\projetomxm\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|c:\\workspace\\projetomxm\\api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|solutionrelative:api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|c:\\workspace\\projetomxm\\api\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C968B4-7450-4E72-9200-3CA80031AEBC}|Api\\Api.csproj|solutionrelative:api\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,43 +34,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\workspace\\projetoMXM\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
               "ToolTip": "C:\\workspace\\projetoMXM\\Api\\Program.cs",
               "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T14:34:46.635Z"
+              "WhenOpened": "2024-04-26T14:34:46.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\workspace\\projetoMXM\\Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Api\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\workspace\\projetoMXM\\Api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Api\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T13:57:36.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ClientRoutes.cs",
               "DocumentMoniker": "C:\\workspace\\projetoMXM\\Api\\Client\\ClientRoutes.cs",
               "RelativeDocumentMoniker": "Api\\Client\\ClientRoutes.cs",
               "ToolTip": "C:\\workspace\\projetoMXM\\Api\\Client\\ClientRoutes.cs",
               "RelativeToolTip": "Api\\Client\\ClientRoutes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:57:31.674Z"
+              "WhenOpened": "2024-04-26T13:57:31.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\workspace\\projetoMXM\\Api\\Client\\Client.cs",
               "RelativeDocumentMoniker": "Api\\Client\\Client.cs",
@@ -78,8 +80,7 @@
               "RelativeToolTip": "Api\\Client\\Client.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:57:29.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T13:57:29.696Z"
             }
           ]
         }
